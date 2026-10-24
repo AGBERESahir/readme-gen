@@ -1,0 +1,1 @@
+{ "name": "readme-gen", "version": "1.0.0", "description": "Génère un README.md de départ à partir de package.json et de l'arborescence.", "license": "MIT", "bin": { "readme-gen": "readme-gen.js" }, "engines": { "node": ">=18" } }
