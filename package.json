@@ -1,1 +1,13 @@
-{ "name": "readme-gen", "version": "1.0.0", "description": "Génère un README.md de départ à partir de package.json et de l'arborescence.", "license": "MIT", "bin": { "readme-gen": "readme-gen.js" }, "engines": { "node": ">=18" } }
+{
+  "name": "readme-gen",
+  "version": "1.1.0",
+  "description": "Génère un README.md de départ à partir du projet (Node, PHP, Python ou site statique).",
+  "license": "MIT",
+  "bin": { "readme-gen": "readme-gen.js" },
+  "scripts": { "test": "node --test" },
+  "files": ["readme-gen.js"],
+  "keywords": ["readme", "documentation", "generator", "markdown", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/AGBERESahir/readme-gen.git" },
+  "author": "Sâhir AGBERE",
+  "engines": { "node": ">=18" }
+}
